@@ -1,0 +1,203 @@
+/* .adjustModalWalletWidth {
+    max-width: 660px;
+} */
+
+
+/* .modal a.close-modal[class*="icon-"] {
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    line-height: 1.25;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0;
+    background: #900;
+    border: 2px solid #fff;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -o-border-radius: 26px;
+    -ms-border-radius: 26px;
+    -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+} */
+
+.main-nav2>li>a {
+    padding-right: 16px!important;
+}
+
+.modalCss {
+    max-width: 800px;
+    height: auto;
+}
+
+.close-button>img {
+    width: 17px;
+}
+
+.wallet-modal-body-header hr {
+    border-top: 2px solid #707070;
+    opacity: .6;
+}
+
+.buyCredits>button {
+    color: #FFFFFF;
+    padding: 6px 20px 4px;
+}
+
+.buyCredits>button>a {
+    color: #FFFFFF;
+}
+
+.heading2>h2 {
+    font-size: 25px;
+}
+
+.subHeading {
+    margin-top: -6px;
+}
+
+.add-color-font {
+    color: #787676;
+    font-size: 17px;
+}
+
+.transaction-box {
+    box-shadow: 0px 5px 9px #0463E466;
+    border: 1px solid #ABABAB;
+    border-radius: 8px
+}
+
+.transaction-box hr {
+    border-color: #707070;
+    margin-left: 3px;
+}
+
+.addAmount {
+    padding: 0px 0px 20px;
+}
+
+.addAmount>span {
+    padding: 19px 63px 0px;
+    margin-left: 74px;
+    font-size: 25px;
+}
+
+.addAmount>input {
+    border: 1px solid #ABABAB;
+    border-radius: 6px;
+    width: 160px;
+    box-shadow: 0px 5px 9px #0463E466;
+    margin-right: 43px;
+    margin-left: -30px;
+    padding: 0px 0px 50px;
+}
+
+.addAmount.heading2>h2 {
+    padding-top: 22px;
+}
+
+.promoCode {
+    padding: 16px 18px 16px;
+}
+
+.enterNewCode {
+    margin-right: 50px;
+    padding: 4px 0px 13px;
+}
+
+.enterNewCode>input {
+    width: 192px;
+    padding: 4px 0px 5px;
+    border-radius: 7px;
+    border: 1px solid #ABABAB;
+}
+
+.red-right-arrow {
+    color: #FE0D0D;
+    border: 1px solid #FE0D0D;
+    border-radius: 4px;
+    padding-top: 5px;
+    display: inline-block;
+    transform: translate(14px, 6px);
+}
+
+.box-trans-h img {
+    width: 36px;
+}
+
+.debit-card {
+    flex: 3;
+}
+
+.addnew-card {
+    flex: 1;
+}
+
+.debit-details {
+    background: #DFDBDB;
+    margin-right: 22px;
+    padding: 6px 8px 10px;
+}
+
+.plusCircle {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #FFAC2C;
+    border-radius: 50%;
+    transform: translate(-6px, 2px);
+}
+
+.subCircle {
+    position: absolute;
+    top: -10px;
+    left: 2px;
+}
+
+.child-circle {
+    display: inline-block;
+    width: 8px;
+    height: 1px;
+    border: 1px solid #FFAC2C;
+    position: relative;
+}
+
+.child-circle2 {
+    display: inline-block;
+    width: 8px;
+    height: 0px;
+    border: 1px solid #FFAC2C;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    top: 15px;
+}
+
+.msgbtn>button {
+    border-color: #DFDBDB;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-left: 9px;
+    padding: 6px 24px 7px;
+}
+
+.students-notification-modal hr {
+    border-top: 2px solid #707070;
+    opacity: .6;
+}
+
+.arrow-up2 {
+    left: 67px;
+    top: 20px;
+}
+
+.addwidth {
+    margin-left: 0;
+}
+
+.addwidth2 {
+    margin-left: -138px;
+}

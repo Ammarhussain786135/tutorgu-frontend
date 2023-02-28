@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/bootnavbar.css">
+    <link rel="stylesheet" href="css/vender/owl.carousel.css">
+    <link rel="stylesheet" href="css/vender/owl.theme.green.css">
+    <link rel="stylesheet" href="css/jquery-modal.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/studentdashboard.css">
+    <link rel="stylesheet" href="css/notification.css">
+    <link rel="stylesheet" href="css/post-to-find-a-teacher.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!----------------------------wallet Modal start----------------->
+    <div class="modal fade" id="modal-toggle" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <h1>hello!</h1>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------wallet Modal end----------------->
+    <header class="firstHeader header-change-img notfication-change-img-height">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- -------nav start------- -->
+                    <nav class="navbar navbar-expand-lg navbar-light navigation">
+                        <a class="navbar-brand logo-margin-top" href="studentdashboard.html">
+                            <img src="tutorgu logo-01.png" alt="">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                        <div class="collapse navbar-collapse mt-4" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto main-nav">
+                                <li class="nav-item dropdown" style="left: -18px;">
+                                    <a href="#" id="addwithjs" class="nav-link dropdown-toggle font-weight-bold addfont pl-3" data-toggle="dropdown">subject
+                                <!-- <span class="arrow-up"><img src="images/arrow/arrow-down-2.png" alt=""></span> -->
+                                <span id="addclass-aroowdown" class="arrow-up"></span>
+                                <!-- <span class="arrow-down"><img src="images/arrow/arrow-down.png" alt=""></span> -->
+                            </a>
+                                    <ul class="dropdown-menu addwidth">
+                                        <span class="arrow"></span>
+                                        <li class="border-bottom">
+                                            <a href="#" class="dropdown-item font-weight-bold">
+                                                <span class="same-design"><img src="images/subjects-header/english.svg" alt=""></span>
+                                                <span class=" pl-3">English</span>
+                                            </a>
+                                        </li>
+                                        <li class="border-bottom">
+                                            <a href="#" class="dropdown-item font-weight-bold">
+                                                <span class="same-design"><img src="images/subjects-header/chineese.svg" alt=""></span>
+                                                <span class="pl-3">Chinese</span>
+                                            </a>
+                                        </li>
+                                        <li class="border-bottom">
+                                            <a href="#" class="dropdown-item font-weight-bold">
+                                                <span class="same-design"><img src="images/subjects-header/maths.png" alt=""></span>
+                                                <span class="pl-3">  Maths</span>
+                                            </a>
+                                        </li>
+                                        <li class="border-bottom">
+                                            <a href="#" class="dropdown-item font-weight-bold">
+                                                <span class="same-design"><img src="images/subjects-header/science.png" alt=""></span>
+                                                <span class="pl-3">Science</span>
+                                            </a>
+                                        </li>
+                                        <li class="dropdown border-bottom">
+                                            <a href="#" class="dropdown-item dropdown-toggle font-weight-bold" data-toggle="dropdown">
+                                                <span class="same-design"><img src="images/subjects-header/other_languages.svg" alt=""></span>
+                                                <span class="pl-3"> Other Languages
+                                            <span class="right-side-arrow ml-2"><img src="images/arrow/rigth-side-arrow.png" alt=""></span>
+                                                </span>
+                                            </a>
+                                            <ul class="dropdown-menu ml-3 addwidth">
+                                                <span class="arrow subarrow"></span>
+                                                <li>
+                                                    <a href="#" class="dropdown-item font-weight-bold border-bottom">
+                                                        <span class="same-design"><img src="images/subjects-header/sub-menu-1/japneese.png" alt="">
+                                                <span class="japdot"></span>
+                                                        </span>
+                                                        <span class="pl-3">Japanese</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item font-weight-bold border-bottom">
+                                                        <span class="same-design"><img src="images/subjects-header/sub-menu-1/korean.png" alt=""></span>
+                                                        <span class="pl-3">Korean</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item font-weight-bold border-bottom">
+                                                        <span class="same-design"><img src="images/subjects-header/sub-menu-1/german.png" alt=""></span>
+                                                        <span class="pl-3">German</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item font-weight-bold border-bottom">
+                                                        <span class="same-design"><img src="images/subjects-header/sub-menu-1/france.png" alt=""></span>
+                                                        <span class="pl-3">France</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item font-weight-bold">
+                                                        <span class="same-design"><img src="images/subjects-header/sub-menu-1/spanish.png" alt=""></span>
+                                                        <span class="pl-3">Spanish</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-item dropdown-toggle font-weight-bold" data-toggle="dropdown">
+                                                <span class="same-design"><img src="images/subjects-header/other-subjects.png" class="" alt=""></span>
+                                                <span class="pl-3"> Other Subjects
+                                            <span class="right-side-arrow ml-4"><img src="images/arrow/rigth-side-arrow.png" alt=""></span>
+                                                </span>
+                                            </a>
+                                            <ul class="dropdown-menu ml-3 addwidth">
+                                                <span class="arrow subarrow"></span>
+                                                <li>
+                                                    <a href="#" class="dropdown-item font-weight-bold border-bottom">
+                                                        <span class="same-design"><img src="images/subjects-header/sub-menu-2/physics.png" alt="">
+                                                <span class="japdot"></span>
+                                                        </span>
+                                                        <span class="pl-3">Physics </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item font-weight-bold border-bottom">
+                                                        <span class="same-design"><img src="images/subjects-header/sub-menu-2/chemistary.svg" alt=""></span>
+                                                        <span class="pl-3">Chemistry</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item font-weight-bold border-bottom">
+                                                        <span class="same-design"><img src="images/subjects-header/sub-menu-2/biology.svg" alt=""></span>
+                                                        <span class="pl-3">Biology</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item font-weight-bold border-bottom">
+                                                        <span class="same-design"><img src="images/subjects-header/sub-menu-2/thai.png" alt=""></span>
+                                                        <span class="pl-3">Thai</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item font-weight-bold border-bottom">
+                                                        <span class="same-design"><img src="images/subjects-header/sub-menu-2/social-studies.png" alt=""></span>
+                                                        <span class="pl-3">Social studies</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item font-weight-bold">
+                                                        <span class="same-design"><img src="images/subjects-header/sub-menu-2/program.png" alt=""></span>
+                                                        <span class="pl-3">Program</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link addfont font-weight-bold text-white pl-2" href="#">Teaching Jobs</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link addfont font-weight-bold text-white pl-2" href="#">Messages</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link addfont font-weight-bold text-white pl-2" href="notification.html">Notification</a>
+                                </li>
+                                <li class="nav-item active pt-2">
+                                    <button class="btn btn-primary addprp">
+                                <a class="nav-link text-white pl-5 postchanging" href="post-to-find-a-teacher.html">Post to find a teacher</a>
+                            </button>
+                                </li>
+                                <li class="nav-item dropdown dropdown-slide reomvearrow">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">
+                                        <img src="images/students-dp.png" alt="">
+                                    </a>
+
+                                    <!-- Dropdown list -->
+                                    <ul class="dropdown-menu addwidth2">
+                                        <span class="arrow2"></span>
+                                        <li>
+                                            <a href="#" class="dropdown-item font-weight-bold border-bottom">
+                                                <span class="same-design"><img src="images/profiles/teachers/teacher-profile.png" alt="">
+                                        <span class="japdot"></span>
+                                                </span>
+                                                <span class="pl-3">Teacher Profile</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item font-weight-bold border-bottom">
+                                                <span class="same-design"><img src="images/profiles/teachers/teacher-setting.png" alt=""></span>
+                                                <span class="pl-3">Teacher Setting</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item font-weight-bold border-bottom">
+                                                <span class="same-design"><img src="images/profiles/teachers/lesson.png" alt=""></span>
+                                                <span class="pl-3">Lesson</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item font-weight-bold border-bottom" data-toggle="modal" data-target="#modal-toggle">
+                                                <span class="same-design"><img src="images/profiles/teachers/wallet.png" alt=""></span>
+                                                <span class="pl-3">Wallet</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item font-weight-bold border-bottom">
+                                                <span class="same-design"><img src="images/profiles/teachers/teachers.png" alt=""></span>
+                                                <span class="pl-3">Teachers</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item font-weight-bold border-bottom">
+                                                <span class="same-design"><img src="images/profiles/teachers/calendar.png" alt=""></span>
+                                                <span class="pl-3">Calendar</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item font-weight-bold border-bottom">
+                                                <span class="same-design"><img src="images/profiles/teachers/refer-a-friend.png" alt=""></span>
+                                                <span class="pl-3">Refer a Friend</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item font-weight-bold border-bottom">
+                                                <span class="same-design"><img src="images/profiles/teachers/switch-6.png" alt=""></span>
+                                                <span class="pl-3">Switch to Teacher Mode</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item font-weight-bold">
+                                                <span class="same-design"><img src="images/profiles/teachers/logout.png" alt=""></span>
+                                                <span class="pl-3">Log Out</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="notification-section">
+        <div class="container">
+            <div class="notification-box">
+                <!-- ---------------first row start------------ -->
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-12 d-block mt-auto">
+                        <div class="header-buttons ml-5 mt-5">
+                            <button class="btn btn-outline-secondary first-btn">Gender</button>
+                            <button class="btn btn-outline-secondary ml-5 second-btn">Online status</button>
+                            <button class="btn btn-outline-secondary ml-5 third-btn">Price</button>
+                            <button class="btn btn-outline-secondary ml-5 fourth-btn">Availabilities</button>
+                            <button class="btn btn-outline-secondary ml-5 fifth-btn">Review Score</button>
+                            <button class="btn btn-outline-secondary ml-5 sisth-btn">Instant Booking</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!-- ---------------first row end------------ -->
+                <!-- -------------------------------main container start------------------------ -->
+                <div class="container">
+                    <!-- -----------------------------first row start----------------------- -->
+                    <div class="row">
+                        <!-- -----------------------------first col start----------------------- -->
+                        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-10 col-10 d-block m-auto">
+                            <div class="tutordetails mt-1 d-flex remove-box-prp">
+                                <!-- ---------------left aside start------------ -->
+                                <div class="leftaside">
+                                    <div class="img ml-3 mt-4">
+                                        <img src="images/post-to-find-teacher/1.png" alt="">
+                                    </div>
+                                    <div class="personname text-center font-weight-bold ">Darren</div>
+                                    <div class="subjectname text-center text-secondary pt-1 allcss">Math.Physics</div>
+                                    <div class="personrate text-center font-weight-bold pt-1 allcss">230 Bath/hr</div>
+                                    <div class="reviewsstars mt-1">
+                                        <span style="left: 27px;"></span>
+                                        <span style="left: 40px;"></span>
+                                        <span style="left: 55px;"></span>
+                                        <span style="left: 72px;"></span>
+                                        <span style="left: 86px;"></span>
+                                    </div>
+                                    <div class="reviews"> 5 Reviews</div>
+                                    <div class="lessonscount text-center ml-4">334 Lessons</div>
+                                </div>
+                                <!-- ------------left aside end-------------- -->
+                                <!-- ------------right aside start-------------- -->
+                                <div class="rigthaside mt-4">
+                                    <div class="videoperson">
+                                        <img class=" mt-4" src="images/post-to-find-teacher/video-pics/skype_1.png" alt="">
+                                    </div>
+                                    <div class="endbtn d-flex ml-5 mt-3">
+                                        <div class="msgbtn ">
+                                            <button class="btn btn-outline-secondary">
+                                                <img src="images/messeage.png" alt="">
+                                                Message
+                                            </button>
+                                        </div>
+                                        <div class="blockbtn ml-4">
+                                            <button class="btn btn-dark">BOOK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- --------------right aside end ------------ -->
+                            </div>
+                        </div>
+                        <!-- -----------------------------first col end----------------------- -->
+                        <!-- -------------------second col start------------------------ -->
+                        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-10 col-10 d-block m-auto">
+                            <div class="tutordetails mt-1 d-flex remove-box-prp">
+                                <!-- ---------------left aside start------------ -->
+                                <div class="leftaside">
+                                    <div class="img ml-3 mt-4">
+                                        <img src="images/post-to-find-teacher/1.png" alt="">
+                                    </div>
+                                    <div class="personname text-center font-weight-bold ">Darren</div>
+                                    <div class="subjectname text-center text-secondary pt-1 allcss">Math.Physics</div>
+                                    <div class="personrate text-center font-weight-bold pt-1 allcss">230 Bath/hr</div>
+                                    <div class="reviewsstars mt-1">
+                                        <span style="left: 27px;"></span>
+                                        <span style="left: 40px;"></span>
+                                        <span style="left: 55px;"></span>
+                                        <span style="left: 72px;"></span>
+                                        <span style="left: 86px;"></span>
+                                    </div>
+                                    <div class="reviews"> 5 Reviews</div>
+                                    <div class="lessonscount text-center ml-4">334 Lessons</div>
+                                </div>
+                                <!-- ------------left aside end-------------- -->
+                                <!-- ------------right aside start-------------- -->
+                                <div class="rigthaside mt-4">
+                                    <div class="videoperson">
+                                        <img class=" mt-4" src="images/post-to-find-teacher/video-pics/skype_1.png" alt="">
+                                    </div>
+                                    <div class="endbtn d-flex ml-5 mt-3">
+                                        <div class="msgbtn ">
+                                            <button class="btn btn-outline-secondary">
+                                                <!-- <img src="images/messeage.png" alt=""> -->
+                                                <i class="fas fa-envelope"></i>
+                                                Message
+                                            </button>
+                                        </div>
+                                        <div class="blockbtn ml-4">
+                                            <button class="btn btn-dark">BOOK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- --------------right aside end ------------ -->
+                            </div>
+                        </div>
+                        <!-- -------------------second col end------------------------ -->
+                    </div>
+                    <!-- -----------------------------first row end----------------------- -->
+                    <!-- -----------------------------first row start----------------------- -->
+                    <div class="row">
+                        <!-- -----------------------------first col start----------------------- -->
+                        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-10 col-10 d-block m-auto">
+                            <div class="tutordetails mt-4 d-flex remove-box-prp">
+                                <!-- ---------------left aside start------------ -->
+                                <div class="leftaside">
+                                    <div class="img ml-3 mt-4">
+                                        <img src="images/post-to-find-teacher/1.png" alt="">
+                                    </div>
+                                    <div class="personname text-center font-weight-bold ">Darren</div>
+                                    <div class="subjectname text-center text-secondary pt-1 allcss">Math.Physics</div>
+                                    <div class="personrate text-center font-weight-bold pt-1 allcss">230 Bath/hr</div>
+                                    <div class="reviewsstars mt-1">
+                                        <span style="left: 27px;"></span>
+                                        <span style="left: 40px;"></span>
+                                        <span style="left: 55px;"></span>
+                                        <span style="left: 72px;"></span>
+                                        <span style="left: 86px;"></span>
+                                    </div>
+                                    <div class="reviews"> 5 Reviews</div>
+                                    <div class="lessonscount text-center ml-4">334 Lessons</div>
+                                </div>
+                                <!-- ------------left aside end-------------- -->
+                                <!-- ------------right aside start-------------- -->
+                                <div class="rigthaside mt-4">
+                                    <div class="videoperson">
+                                        <img class=" mt-4" src="images/post-to-find-teacher/video-pics/skype_1.png" alt="">
+                                    </div>
+                                    <div class="endbtn d-flex ml-5 mt-3">
+                                        <div class="msgbtn ">
+                                            <button class="btn btn-outline-secondary">
+                                                <img src="images/messeage.png" alt="">
+                                                <!-- <i class="fas fa-envelope"></i> -->
+                                                Message</button>
+                                        </div>
+                                        <div class="blockbtn ml-4">
+                                            <button class="btn btn-dark">BOOK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- --------------right aside end ------------ -->
+                            </div>
+                        </div>
+                        <!-- -----------------------------first col end----------------------- -->
+                        <!-- -------------------second col start------------------------ -->
+                        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-10 col-10 d-block m-auto">
+                            <div class="tutordetails mt-4 d-flex remove-box-prp">
+                                <!-- ---------------left aside start------------ -->
+                                <div class="leftaside">
+                                    <div class="img ml-3 mt-4">
+                                        <img src="images/post-to-find-teacher/1.png" alt="">
+                                    </div>
+                                    <div class="personname text-center font-weight-bold ">Darren</div>
+                                    <div class="subjectname text-center text-secondary pt-1 allcss">Math.Physics</div>
+                                    <div class="personrate text-center font-weight-bold pt-1 allcss">230 Bath/hr</div>
+                                    <div class="reviewsstars mt-1">
+                                        <span style="left: 27px;"></span>
+                                        <span style="left: 40px;"></span>
+                                        <span style="left: 55px;"></span>
+                                        <span style="left: 72px;"></span>
+                                        <span style="left: 86px;"></span>
+                                    </div>
+                                    <div class="reviews"> 5 Reviews</div>
+                                    <div class="lessonscount text-center ml-4">334 Lessons</div>
+                                </div>
+                                <!-- ------------left aside end-------------- -->
+                                <!-- ------------right aside start-------------- -->
+                                <div class="rigthaside mt-4">
+                                    <div class="videoperson">
+                                        <img class=" mt-4" src="images/post-to-find-teacher/video-pics/skype_1.png" alt="">
+                                    </div>
+                                    <div class="endbtn d-flex ml-5 mt-3">
+                                        <div class="msgbtn ">
+                                            <button class="btn btn-outline-secondary">
+                                                <!-- <img src="images/messeage.png" alt=""> -->
+                                                <i class="fas fa-envelope"></i>
+                                                Message
+                                            </button>
+                                        </div>
+                                        <div class="blockbtn ml-4">
+                                            <button class="btn btn-dark">BOOK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- --------------right aside end ------------ -->
+                            </div>
+                        </div>
+                        <!-- -------------------second col end------------------------ -->
+                    </div>
+                    <!-- -----------------------------first row end----------------------- -->
+                    <!-- -----------------------------first row start----------------------- -->
+                    <div class="row">
+                        <!-- -----------------------------first col start----------------------- -->
+                        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-10 col-10 d-block m-auto">
+                            <div class="tutordetails mt-4 d-flex remove-box-prp">
+                                <!-- ---------------left aside start------------ -->
+                                <div class="leftaside">
+                                    <div class="img ml-3 mt-4">
+                                        <img src="images/post-to-find-teacher/1.png" alt="">
+                                    </div>
+                                    <div class="personname text-center font-weight-bold ">Darren</div>
+                                    <div class="subjectname text-center text-secondary pt-1 allcss">Math.Physics</div>
+                                    <div class="personrate text-center font-weight-bold pt-1 allcss">230 Bath/hr</div>
+                                    <div class="reviewsstars mt-1">
+                                        <span style="left: 27px;"></span>
+                                        <span style="left: 40px;"></span>
+                                        <span style="left: 55px;"></span>
+                                        <span style="left: 72px;"></span>
+                                        <span style="left: 86px;"></span>
+                                    </div>
+                                    <div class="reviews"> 5 Reviews</div>
+                                    <div class="lessonscount text-center ml-4">334 Lessons</div>
+                                </div>
+                                <!-- ------------left aside end-------------- -->
+                                <!-- ------------right aside start-------------- -->
+                                <div class="rigthaside mt-4">
+                                    <div class="videoperson">
+                                        <img class=" mt-4" src="images/post-to-find-teacher/video-pics/skype_1.png" alt="">
+                                    </div>
+                                    <div class="endbtn d-flex ml-5 mt-3">
+                                        <div class="msgbtn ">
+                                            <button class="btn btn-outline-secondary">
+                                                <img src="images/messeage.png" alt="">
+                                                <!-- <i class="fas fa-envelope"></i> -->
+                                                Message</button>
+                                        </div>
+                                        <div class="blockbtn ml-4">
+                                            <button class="btn btn-dark">BOOK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- --------------right aside end ------------ -->
+                            </div>
+                        </div>
+                        <!-- -----------------------------first col end----------------------- -->
+                        <!-- -------------------second col start------------------------ -->
+                        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-10 col-10 d-block m-auto">
+                            <div class="tutordetails mt-4 d-flex remove-box-prp">
+                                <!-- ---------------left aside start------------ -->
+                                <div class="leftaside">
+                                    <div class="img ml-3 mt-4">
+                                        <img src="images/post-to-find-teacher/1.png" alt="">
+                                    </div>
+                                    <div class="personname text-center font-weight-bold ">Darren</div>
+                                    <div class="subjectname text-center text-secondary pt-1 allcss">Math.Physics</div>
+                                    <div class="personrate text-center font-weight-bold pt-1 allcss">230 Bath/hr</div>
+                                    <div class="reviewsstars mt-1">
+                                        <span style="left: 27px;"></span>
+                                        <span style="left: 40px;"></span>
+                                        <span style="left: 55px;"></span>
+                                        <span style="left: 72px;"></span>
+                                        <span style="left: 86px;"></span>
+                                    </div>
+                                    <div class="reviews"> 5 Reviews</div>
+                                    <div class="lessonscount text-center ml-4">334 Lessons</div>
+                                </div>
+                                <!-- ------------left aside end-------------- -->
+                                <!-- ------------right aside start-------------- -->
+                                <div class="rigthaside mt-4">
+                                    <div class="videoperson">
+                                        <img class=" mt-4" src="images/post-to-find-teacher/video-pics/skype_1.png" alt="">
+                                    </div>
+                                    <div class="endbtn d-flex ml-5 mt-3">
+                                        <div class="msgbtn ">
+                                            <button class="btn btn-outline-secondary">
+                                                <!-- <img src="images/messeage.png" alt=""> -->
+                                                <i class="fas fa-envelope"></i>
+                                                Message
+                                            </button>
+                                        </div>
+                                        <div class="blockbtn ml-4">
+                                            <button class="btn btn-dark">BOOK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- --------------right aside end ------------ -->
+                            </div>
+                        </div>
+                        <!-- -------------------second col end------------------------ -->
+                    </div>
+                    <!-- -----------------------------first row end----------------------- -->
+                    <!-- -----------------------------first row start----------------------- -->
+                    <div class="row">
+                        <!-- -----------------------------first col start----------------------- -->
+                        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-10 col-10 d-block m-auto">
+                            <div class="tutordetails mt-4 d-flex remove-box-prp">
+                                <!-- ---------------left aside start------------ -->
+                                <div class="leftaside">
+                                    <div class="img ml-3 mt-4">
+                                        <img src="images/post-to-find-teacher/1.png" alt="">
+                                    </div>
+                                    <div class="personname text-center font-weight-bold ">Darren</div>
+                                    <div class="subjectname text-center text-secondary pt-1 allcss">Math.Physics</div>
+                                    <div class="personrate text-center font-weight-bold pt-1 allcss">230 Bath/hr</div>
+                                    <div class="reviewsstars mt-1">
+                                        <span style="left: 27px;"></span>
+                                        <span style="left: 40px;"></span>
+                                        <span style="left: 55px;"></span>
+                                        <span style="left: 72px;"></span>
+                                        <span style="left: 86px;"></span>
+                                    </div>
+                                    <div class="reviews"> 5 Reviews</div>
+                                    <div class="lessonscount text-center ml-4">334 Lessons</div>
+                                </div>
+                                <!-- ------------left aside end-------------- -->
+                                <!-- ------------right aside start-------------- -->
+                                <div class="rigthaside mt-4">
+                                    <div class="videoperson">
+                                        <img class=" mt-4" src="images/post-to-find-teacher/video-pics/skype_1.png" alt="">
+                                    </div>
+                                    <div class="endbtn d-flex ml-5 mt-3">
+                                        <div class="msgbtn ">
+                                            <button class="btn btn-outline-secondary">
+                                                <img src="images/messeage.png" alt="">
+                                                <!-- <i class="fas fa-envelope"></i> -->
+                                                Message</button>
+                                        </div>
+                                        <div class="blockbtn ml-4">
+                                            <button class="btn btn-dark">BOOK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- --------------right aside end ------------ -->
+                            </div>
+                        </div>
+                        <!-- -----------------------------first col end----------------------- -->
+                        <!-- -------------------second col start------------------------ -->
+                        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-10 col-10 d-block m-auto">
+                            <div class="tutordetails mt-4 d-flex remove-box-prp">
+                                <!-- ---------------left aside start------------ -->
+                                <div class="leftaside">
+                                    <div class="img ml-3 mt-4">
+                                        <img src="images/post-to-find-teacher/1.png" alt="">
+                                    </div>
+                                    <div class="personname text-center font-weight-bold ">Darren</div>
+                                    <div class="subjectname text-center text-secondary pt-1 allcss">Math.Physics</div>
+                                    <div class="personrate text-center font-weight-bold pt-1 allcss">230 Bath/hr</div>
+                                    <div class="reviewsstars mt-1">
+                                        <span style="left: 27px;"></span>
+                                        <span style="left: 40px;"></span>
+                                        <span style="left: 55px;"></span>
+                                        <span style="left: 72px;"></span>
+                                        <span style="left: 86px;"></span>
+                                    </div>
+                                    <div class="reviews"> 5 Reviews</div>
+                                    <div class="lessonscount text-center ml-4">334 Lessons</div>
+                                </div>
+                                <!-- ------------left aside end-------------- -->
+                                <!-- ------------right aside start-------------- -->
+                                <div class="rigthaside mt-4">
+                                    <div class="videoperson">
+                                        <img class=" mt-4" src="images/post-to-find-teacher/video-pics/skype_1.png" alt="">
+                                    </div>
+                                    <div class="endbtn d-flex ml-5 mt-3">
+                                        <div class="msgbtn ">
+                                            <button class="btn btn-outline-secondary">
+                                                <!-- <img src="images/messeage.png" alt=""> -->
+                                                <i class="fas fa-envelope"></i>
+                                                Message
+                                            </button>
+                                        </div>
+                                        <div class="blockbtn ml-4">
+                                            <button class="btn btn-dark">BOOK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- --------------right aside end ------------ -->
+                            </div>
+                        </div>
+                        <!-- -------------------second col end------------------------ -->
+                    </div>
+                    <!-- -----------------------------first row end----------------------- -->
+                    <!-- -----------------------------first row start----------------------- -->
+                    <div class="row">
+                        <!-- -----------------------------first col start----------------------- -->
+                        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-10 col-10 d-block m-auto">
+                            <div class="tutordetails mt-4 d-flex remove-box-prp">
+                                <!-- ---------------left aside start------------ -->
+                                <div class="leftaside">
+                                    <div class="img ml-3 mt-4">
+                                        <img src="images/post-to-find-teacher/1.png" alt="">
+                                    </div>
+                                    <div class="personname text-center font-weight-bold ">Darren</div>
+                                    <div class="subjectname text-center text-secondary pt-1 allcss">Math.Physics</div>
+                                    <div class="personrate text-center font-weight-bold pt-1 allcss">230 Bath/hr</div>
+                                    <div class="reviewsstars mt-1">
+                                        <span style="left: 27px;"></span>
+                                        <span style="left: 40px;"></span>
+                                        <span style="left: 55px;"></span>
+                                        <span style="left: 72px;"></span>
+                                        <span style="left: 86px;"></span>
+                                    </div>
+                                    <div class="reviews"> 5 Reviews</div>
+                                    <div class="lessonscount text-center ml-4">334 Lessons</div>
+                                </div>
+                                <!-- ------------left aside end-------------- -->
+                                <!-- ------------right aside start-------------- -->
+                                <div class="rigthaside mt-4">
+                                    <div class="videoperson">
+                                        <img class=" mt-4" src="images/post-to-find-teacher/video-pics/skype_1.png" alt="">
+                                    </div>
+                                    <div class="endbtn d-flex ml-5 mt-3">
+                                        <div class="msgbtn ">
+                                            <button class="btn btn-outline-secondary">
+                                                <img src="images/messeage.png" alt="">
+                                                <!-- <i class="fas fa-envelope"></i> -->
+                                                Message</button>
+                                        </div>
+                                        <div class="blockbtn ml-4">
+                                            <button class="btn btn-dark">BOOK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- --------------right aside end ------------ -->
+                            </div>
+                        </div>
+                        <!-- -----------------------------first col end----------------------- -->
+                        <!-- -------------------second col start------------------------ -->
+                        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-10 col-10 d-block m-auto">
+                            <div class="tutordetails mt-4 d-flex remove-box-prp">
+                                <!-- ---------------left aside start------------ -->
+                                <div class="leftaside">
+                                    <div class="img ml-3 mt-4">
+                                        <img src="images/post-to-find-teacher/1.png" alt="">
+                                    </div>
+                                    <div class="personname text-center font-weight-bold ">Darren</div>
+                                    <div class="subjectname text-center text-secondary pt-1 allcss">Math.Physics</div>
+                                    <div class="personrate text-center font-weight-bold pt-1 allcss">230 Bath/hr</div>
+                                    <div class="reviewsstars mt-1">
+                                        <span style="left: 27px;"></span>
+                                        <span style="left: 40px;"></span>
+                                        <span style="left: 55px;"></span>
+                                        <span style="left: 72px;"></span>
+                                        <span style="left: 86px;"></span>
+                                    </div>
+                                    <div class="reviews"> 5 Reviews</div>
+                                    <div class="lessonscount text-center ml-4">334 Lessons</div>
+                                </div>
+                                <!-- ------------left aside end-------------- -->
+                                <!-- ------------right aside start-------------- -->
+                                <div class="rigthaside mt-4">
+                                    <div class="videoperson">
+                                        <img class=" mt-4" src="images/post-to-find-teacher/video-pics/skype_1.png" alt="">
+                                    </div>
+                                    <div class="endbtn d-flex ml-5 mt-3">
+                                        <div class="msgbtn ">
+                                            <button class="btn btn-outline-secondary">
+                                                <!-- <img src="images/messeage.png" alt=""> -->
+                                                <i class="fas fa-envelope"></i>
+                                                Message
+                                            </button>
+                                        </div>
+                                        <div class="blockbtn ml-4">
+                                            <button class="btn btn-dark">BOOK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- --------------right aside end ------------ -->
+                            </div>
+                        </div>
+                        <!-- -------------------second col end------------------------ -->
+                    </div>
+                    <!-- -----------------------------first row end----------------------- -->
+                    <!-- -----------------------------first row start----------------------- -->
+                    <div class="row">
+                        <!-- -----------------------------first col start----------------------- -->
+                        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-10 col-10 d-block m-auto">
+                            <div class="tutordetails mt-4 d-flex remove-box-prp">
+                                <!-- ---------------left aside start------------ -->
+                                <div class="leftaside">
+                                    <div class="img ml-3 mt-4">
+                                        <img src="images/post-to-find-teacher/1.png" alt="">
+                                    </div>
+                                    <div class="personname text-center font-weight-bold ">Darren</div>
+                                    <div class="subjectname text-center text-secondary pt-1 allcss">Math.Physics</div>
+                                    <div class="personrate text-center font-weight-bold pt-1 allcss">230 Bath/hr</div>
+                                    <div class="reviewsstars mt-1">
+                                        <span style="left: 27px;"></span>
+                                        <span style="left: 40px;"></span>
+                                        <span style="left: 55px;"></span>
+                                        <span style="left: 72px;"></span>
+                                        <span style="left: 86px;"></span>
+                                    </div>
+                                    <div class="reviews"> 5 Reviews</div>
+                                    <div class="lessonscount text-center ml-4">334 Lessons</div>
+                                </div>
+                                <!-- ------------left aside end-------------- -->
+                                <!-- ------------right aside start-------------- -->
+                                <div class="rigthaside mt-4">
+                                    <div class="videoperson">
+                                        <img class=" mt-4" src="images/post-to-find-teacher/video-pics/skype_1.png" alt="">
+                                    </div>
+                                    <div class="endbtn d-flex ml-5 mt-3">
+                                        <div class="msgbtn ">
+                                            <button class="btn btn-outline-secondary">
+                                                <img src="images/messeage.png" alt="">
+                                                <!-- <i class="fas fa-envelope"></i> -->
+                                                Message</button>
+                                        </div>
+                                        <div class="blockbtn ml-4">
+                                            <button class="btn btn-dark">BOOK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- --------------right aside end ------------ -->
+                            </div>
+                        </div>
+                        <!-- -----------------------------first col end----------------------- -->
+                        <!-- -------------------second col start------------------------ -->
+                        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-10 col-10 d-block m-auto">
+                            <div class="tutordetails mt-4 d-flex remove-box-prp">
+                                <!-- ---------------left aside start------------ -->
+                                <div class="leftaside">
+                                    <div class="img ml-3 mt-4">
+                                        <img src="images/post-to-find-teacher/1.png" alt="">
+                                    </div>
+                                    <div class="personname text-center font-weight-bold ">Darren</div>
+                                    <div class="subjectname text-center text-secondary pt-1 allcss">Math.Physics</div>
+                                    <div class="personrate text-center font-weight-bold pt-1 allcss">230 Bath/hr</div>
+                                    <div class="reviewsstars mt-1">
+                                        <span style="left: 27px;"></span>
+                                        <span style="left: 40px;"></span>
+                                        <span style="left: 55px;"></span>
+                                        <span style="left: 72px;"></span>
+                                        <span style="left: 86px;"></span>
+                                    </div>
+                                    <div class="reviews"> 5 Reviews</div>
+                                    <div class="lessonscount text-center ml-4">334 Lessons</div>
+                                </div>
+                                <!-- ------------left aside end-------------- -->
+                                <!-- ------------right aside start-------------- -->
+                                <div class="rigthaside mt-4">
+                                    <div class="videoperson">
+                                        <img class=" mt-4" src="images/post-to-find-teacher/video-pics/skype_1.png" alt="">
+                                    </div>
+                                    <div class="endbtn d-flex ml-5 mt-3">
+                                        <div class="msgbtn ">
+                                            <button class="btn btn-outline-secondary">
+                                                <!-- <img src="images/messeage.png" alt=""> -->
+                                                <i class="fas fa-envelope"></i>
+                                                Message
+                                            </button>
+                                        </div>
+                                        <div class="blockbtn ml-4">
+                                            <button class="btn btn-dark">BOOK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- --------------right aside end ------------ -->
+                            </div>
+                        </div>
+                        <!-- -------------------second col end------------------------ -->
+                    </div>
+                    <!-- -----------------------------first row end----------------------- -->
+                    <!-- -----------------------------first row start----------------------- -->
+                    <div class="row">
+                        <!-- -----------------------------first col start----------------------- -->
+                        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-10 col-10 d-block m-auto">
+                            <div class="tutordetails mt-4 d-flex remove-box-prp">
+                                <!-- ---------------left aside start------------ -->
+                                <div class="leftaside">
+                                    <div class="img ml-3 mt-4">
+                                        <img src="images/post-to-find-teacher/1.png" alt="">
+                                    </div>
+                                    <div class="personname text-center font-weight-bold ">Darren</div>
+                                    <div class="subjectname text-center text-secondary pt-1 allcss">Math.Physics</div>
+                                    <div class="personrate text-center font-weight-bold pt-1 allcss">230 Bath/hr</div>
+                                    <div class="reviewsstars mt-1">
+                                        <span style="left: 27px;"></span>
+                                        <span style="left: 40px;"></span>
+                                        <span style="left: 55px;"></span>
+                                        <span style="left: 72px;"></span>
+                                        <span style="left: 86px;"></span>
+                                    </div>
+                                    <div class="reviews"> 5 Reviews</div>
+                                    <div class="lessonscount text-center ml-4">334 Lessons</div>
+                                </div>
+                                <!-- ------------left aside end-------------- -->
+                                <!-- ------------right aside start-------------- -->
+                                <div class="rigthaside mt-4">
+                                    <div class="videoperson">
+                                        <img class=" mt-4" src="images/post-to-find-teacher/video-pics/skype_1.png" alt="">
+                                    </div>
+                                    <div class="endbtn d-flex ml-5 mt-3">
+                                        <div class="msgbtn ">
+                                            <button class="btn btn-outline-secondary">
+                                                <img src="images/messeage.png" alt="">
+                                                <!-- <i class="fas fa-envelope"></i> -->
+                                                Message</button>
+                                        </div>
+                                        <div class="blockbtn ml-4">
+                                            <button class="btn btn-dark">BOOK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- --------------right aside end ------------ -->
+                            </div>
+                        </div>
+                        <!-- -----------------------------first col end----------------------- -->
+                        <!-- -------------------second col start------------------------ -->
+                        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-10 col-10 d-block m-auto">
+                            <div class="tutordetails mt-4 d-flex remove-box-prp">
+                                <!-- ---------------left aside start------------ -->
+                                <div class="leftaside">
+                                    <div class="img ml-3 mt-4">
+                                        <img src="images/post-to-find-teacher/1.png" alt="">
+                                    </div>
+                                    <div class="personname text-center font-weight-bold ">Darren</div>
+                                    <div class="subjectname text-center text-secondary pt-1 allcss">Math.Physics</div>
+                                    <div class="personrate text-center font-weight-bold pt-1 allcss">230 Bath/hr</div>
+                                    <div class="reviewsstars mt-1">
+                                        <span style="left: 27px;"></span>
+                                        <span style="left: 40px;"></span>
+                                        <span style="left: 55px;"></span>
+                                        <span style="left: 72px;"></span>
+                                        <span style="left: 86px;"></span>
+                                    </div>
+                                    <div class="reviews"> 5 Reviews</div>
+                                    <div class="lessonscount text-center ml-4">334 Lessons</div>
+                                </div>
+                                <!-- ------------left aside end-------------- -->
+                                <!-- ------------right aside start-------------- -->
+                                <div class="rigthaside mt-4">
+                                    <div class="videoperson">
+                                        <img class=" mt-4" src="images/post-to-find-teacher/video-pics/skype_1.png" alt="">
+                                    </div>
+                                    <div class="endbtn d-flex ml-5 mt-3">
+                                        <div class="msgbtn ">
+                                            <button class="btn btn-outline-secondary">
+                                                <!-- <img src="images/messeage.png" alt=""> -->
+                                                <i class="fas fa-envelope"></i>
+                                                Message
+                                            </button>
+                                        </div>
+                                        <div class="blockbtn ml-4">
+                                            <button class="btn btn-dark">BOOK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- --------------right aside end ------------ -->
+                            </div>
+                        </div>
+                        <!-- -------------------second col end------------------------ -->
+                    </div>
+                    <!-- -----------------------------first row end----------------------- -->
+                </div>
+                <!-- -------------------------------main container end------------------------ -->
+    </section>
+    <footer>
+        <div class="main-footer">
+            <div class="container">
+                <div class="row">
+                    <!-- ----------first-col-start--------------- -->
+                    <div class="col-md-4">
+                        <div class="left-footer">
+                            <div class="right-all-data">
+                                <div class="right-top-sec">
+                                    <div class="ft-logo"><img src="tutorgu logo-01.png" alt=""></div>
+                                    <div class="change-language">
+                                        <div class="drp-english">
+                                            <span class=" position-absolute"><img src="images/change-lang/english.png" alt=""></span>
+                                            <select class="text-white position-relative">
+                                            <option value="1">ENGLISH</option>
+                                        </select>
+                                        </div>
+                                        <div class="drp-thb pt-2">
+                                            <span class=" position-absolute"><img src="images/change-lang/thb.png" alt=""></span>
+                                            <select class="text-white position-relative">
+                                            <option value="1">THB</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-end-sec">
+                                    <div class="contact-us">
+                                        <h3 class=" text-warning pl-3">CONTACT WITH US</h3>
+                                        <div class="address">
+                                            <span class="text-white"><img src="images/icons/address.png" alt=""></span>
+                                            <span class="text-white pl-3">824 Bel Meadow Drive,California USA</span>
+                                        </div>
+                                        <div class="phn d-flex">
+                                            <span><img src="images/icons/phone-26.png" alt=""></span>
+                                            <div class="phn-text pl-3">
+                                                <div class="text-white">(+11) 234 567 8520</div>
+                                                <div class="text-white">(+11) 234 567 8524</div>
+                                            </div>
+                                        </div>
+                                        <div class="eml d-flex">
+                                            <span><img src="images/icons/email-28.png" alt=""></span>
+                                            <div class="eml-text pl-3">
+                                                <div class="text-white">Info@website.Com</div>
+                                                <div class="text-white">Mail@website.Com</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ----------first-col-end--------------- -->
+                    <div class="col-md-8">
+                        <div class="right-footer">
+                            <div class="left-top d-flex">
+                                <div class="get-us-know">
+                                    <h3 class=" text-warning">GET TO KNOW US</h3>
+                                    <ul>
+                                        <li class="ul-item pt-3"><a href="#">About Us</a></li>
+                                        <li class="ul-item"><a href="#">Help Center</a></li>
+                                        <li class="ul-item"><a href="#">Blog</a></li>
+                                        <li class="ul-item"><a href="#">Honor Code </a></li>
+                                        <li class="ul-item"><a href="#">Careers</a></li>
+                                        <li class="ul-item"><a href="#">Prees</a></li>
+                                    </ul>
+                                </div>
+                                <div class="learn">
+                                    <h3 class=" text-warning">LEARN WITH US</h3>
+                                    <ul>
+                                        <li class="ul-item pt-3"><a href="#">Writing Resources</a></li>
+                                        <li class="ul-item"><a href="#">Demo Lesson Space</a></li>
+                                        <li class="ul-item"><a href="#">Subjects</a></li>
+                                        <li class="ul-item"><a href="#">Browse Tutors</a></li>
+                                        <li class="ul-item"><a href="#">Test Prep Courses</a></li>
+                                        <li class="ul-item"><a href="#">For Parents</a></li>
+                                    </ul>
+                                </div>
+                                <div class="partner">
+                                    <h3 class=" text-warning">PARTNER WITH US</h3>
+                                    <ul>
+                                        <li class="ul-item pt-3"><a href="#">Ambassadors</a></li>
+                                        <li class="ul-item"><a href="#">Academic Partners </a></li>
+                                        <li class="ul-item"><a href="#">Corporate Partners</a></li>
+                                        <li class="ul-item"><a href="#">Become a Tutor</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <h3 class="text-warning mt-5">ONLINE TUTORS IN POPULAR SUBJECTS</h3>
+                            <div class="left-end d-flex mt-3">
+                                <div class="left-end-first-side">
+                                    <ul>
+                                        <li class="ul-item"><a href="#">Writing Tutors </a></li>
+                                        <li class="ul-item"><a href="#">Statistics Tutors</a></li>
+                                        <li class="ul-item"><a href="#">Library and Information Science Tutors</a></li>
+                                        <li class="ul-item"><a href="#">Computer Science (General) Tutors</a></li>
+                                        <li class="ul-item"><a href="#">Algebra Tutors</a></li>
+                                        <li class="ul-item"><a href="#">Calculus Tutors</a></li>
+                                    </ul>
+                                </div>
+                                <div class="left-end-second-side">
+                                    <ul>
+                                        <li class="ul-item"><a href="#">Accounting Tutors</a></li>
+                                        <li class="ul-item"><a href="#">Chemistry Tutors</a></li>
+                                        <li class="ul-item"><a href="#">English Tutors</a></li>
+                                        <li class="ul-item"><a href="#">Physics Tutors</a></li>
+                                        <li class="ul-item"><a href="#">Basic Math Tutors</a></li>
+                                        <li class="ul-item"><a href="#">Python Programming Tutors</a></li>
+                                    </ul>
+                                </div>
+                                <div class="left-end-third-side">
+                                    <ul>
+                                        <li class="ul-item"><a href="#">Biology Tutors </a></li>
+                                        <li class="ul-item"><a href="#">Finance Tutors</a></li>
+                                        <li class="ul-item"><a href="#">Economics Tutors</a></li>
+                                        <li class="ul-item"><a href="#">Organic Chemistry Tutors</a></li>
+                                        <li class="ul-item"><a href="#">C++ Programming Tutors</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="end-footer d-flex justify-content-center position-relative">
+            <div class=" text-white">All rights reserved - 2020</div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script src="js/jquery-modal.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            items: 2,
+            stagePadding: 100,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+            }
+
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+.remove-box-prp {
+    box-shadow: none;
+    border-color: #ABABAB;
+}
+
+.header-buttons>button {
+    border-radius: 20px;
+    border-color: #707070;
+    color: #000000;
+}
+
+.first-btn {
+    width: 11%;
+}
+
+.second-btn {
+    width: 12%;
+}
+
+.third-btn {
+    width: 10%;
+}
+
+.fourth-btn {
+    width: 13%;
+}
+
+.fifth-btn {
+    width: 14%;
+}
+
+.notification-section hr {
+    margin-top: 2rem;
+}
+
+.msgbtn>button {
+    border-color: #6c757d;
+}
+
+.blockbtn>button {
+    background-color: #0463E4;
+    border: none;
+    opacity: 0.8;
+}

@@ -1,0 +1,77 @@
+.notfication-change-img-height {
+    height: 9cm;
+    background-image: url(../images/notification-posttofindateacher.png);
+    border: none;
+    border-bottom-left-radius: initial;
+    border-bottom-right-radius: initial;
+}
+
+.notfication-change-img-height::before {
+    border-bottom-left-radius: 18% 7%;
+    border-bottom-right-radius: 31% 7%;
+}
+
+.notification-section {
+    position: relative;
+}
+
+.notification-box {
+    /* width: 34cm;
+    margin-left: -90px; */
+    /* height: 53cm; */
+    background-color: #FFFFFF;
+    /* background: black; */
+    /* transform: translateY(-13cm); */
+    /* margin-top: 260px; */
+    margin-top: -225px;
+    box-shadow: 0px 7px 10px #0463E4DE;
+    border-radius: 20px;
+    padding: 0px 0px 55px;
+}
+
+.notification-section hr {
+    border-top: 1px solid rgba(0, 0, 0, .5)
+}
+
+.small-notification-box {
+    background-color: #FFFFFF;
+    box-shadow: 0px 7px 10px #0463E4DE;
+    border-radius: 9px;
+    padding: 0px 0px 25px;
+}
+
+.small-notification-box>.img>img {
+    /* border: 1px solid; */
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+.textarea>h1 {
+    font-size: 26px;
+}
+
+.dotted-area {
+    margin-left: 194px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.online-icon>span {
+    width: 15px;
+    height: 15px;
+    background: #31D172;
+    position: absolute;
+    z-index: 5464649684;
+    /* top: 0; */
+    margin: 29px 0px 0px 196px;
+    border-radius: 50%;
+}
+
+.addwidth {
+    margin-left: 43px;
+}
+
+.addwidth2 {
+    margin-left: -110px;
+}
